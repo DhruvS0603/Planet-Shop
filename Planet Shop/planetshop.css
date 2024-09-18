@@ -1,0 +1,157 @@
+@import url(https://fonts.google.com/specimen/Ga+Maamli?preview.text=funny%20bold);
+
+body{
+    background-color: #4d095c;
+}
+header{
+    color: #e4dfe6;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 3px solid black;
+    position: sticky;
+
+    
+
+}
+header .logo{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color:#241941;
+    font-family: fantasy;
+    
+}
+header .logo a:hover{
+    color:#e4dfe6;
+    text-decoration:none;
+
+}
+header .logo .images{
+    height:50px;
+  width:50px;
+  border: 1px solid black;
+  border-radius: 100%;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    list-style-type: none;
+}
+ul li a{
+    color: white;
+    margin: 0px 10px;
+    text-align: left;
+    border-bottom: 2px solid white;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+.sign{ 
+    background-color: #50fa39;
+    border: 2px solid white;
+    border-radius: 50px;
+}
+.sign:hover{
+    background-color: #a6ed9d;
+    color: black;
+    text-decoration: underline;
+}
+ul li a:hover{
+    background-color: black;
+    border: 2px solid cyan;
+    color: cyan;
+    border-radius: 20px;
+    transition: all 0.6s ease;
+}
+.sale{
+    text-align: center;
+    color: #3fe216;
+    background-color: #5f0d71;
+    padding:10px;
+    font-size: 50px;
+}
+.sale:hover{
+    color:#241941;
+}
+.outer{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    gap:10px;
+    padding: 50px;
+    background-color: #5f0d71;
+    border-bottom:3px solid #000000;
+    
+}
+.outer .planet{
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    border: 2px solid white;
+    border-radius: 10px;
+    transition: all ease-in-out 0.5s;
+    background-color: #241941;
+}
+.outer .planet:hover{
+    width:25%;
+    background-color: #1d1c1c;
+}
+.planet{
+    text-align: center;
+    color: azure;
+    text-decoration: underline;
+    
+}
+ p{
+    color: lightgreen;
+    font-size: 20px;
+    text-decoration: none;
+}
+ button{
+    background-color: #3fe216;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: 2px solid white;
+
+}
+ button:hover{
+    background-color: #000000;
+    border: none;
+    color: rgb(5, 252, 104);
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: underline;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: 2px solid rgb(5, 252, 104);
+}
+ img{
+    height:30%;
+
+}
+
+
+
+
+
+
+
