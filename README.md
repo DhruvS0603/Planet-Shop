@@ -1,4 +1,4 @@
-PlanetShop
+# PlanetShop
 PlanetShop is a creative web project that displays planets as items for sale, each with unique descriptions and images. This simple yet engaging webpage uses HTML and CSS to provide users with an interactive viewing experience.
 
 Table of Contents<br>
